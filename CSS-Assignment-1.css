@@ -1,0 +1,61 @@
+#HTML-assignment1 
+
+  /*
+vars and color
+ */
+ :root {
+    /* define the color pallete */
+    --primary-color: #ADF6B1;
+    --secondary-color: #00F7DF;
+    --accent-color: #4B1D3F;
+}
+
+body{
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+  background-color: rgb(135, 246, 177);
+  color: #000000;
+  line-height: 1.5;
+}
+
+  .the-body{
+    padding: 4;
+  }
+
+  .navbar{
+    background-color: #4B1D3F;
+  }
+  
+  .container-fluid {
+    background-color: #ADF6B1;
+    padding: 2;
+  }
+  
+  .main-section {
+    margin: 10;
+  }
+  
+  h1{
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+    color: #4B1D3F;
+    padding-top: 2rem;
+  }
+
+  h2{
+    padding-top: 1rem;
+  }
+
+  h3{
+    padding-top: 1rem;
+  }
+
+  div.the-body>div:nth-of-type(odd) {
+    background: rgb(205, 246, 177);
+  }
+
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+    line-height: 1.3;
+}
